@@ -1,12 +1,12 @@
 ## Introduction
 {:#introduction}
  
-The concept of data vaults has emerged in an effort to give more control to the users over the storage and the access to their data; it is encapsulated in a concept called data sovereignty [](cite:cites Verstraete2022).
+The concept of data vaults has emerged in an effort to give more control to the users over the storage and the access to their data; it is encapsulated in a bigger concept called data sovereignty [](cite:cites Verstraete2022).
 Combined with linked data it creates the basis for more interoperable applications thus
-giving more choice of providers of services [](cite:cites Verstraete2022).
+giving also more choice of providers of services [](cite:cites Verstraete2022).
 
 Due to the highly decentralized nature of data vault environments, Link Traversal Query Processing (LTQP) is the preferred query paradigm [](cite:cites Taelman2023). LTQP consists of executing a query over an internal data store while recursively dereferencing links following a lookup policy to add more data into the internal data store [](cite:cites Hartig).
-LTQP has been studied in the past by multiple researchers ( for example those authors [](cite:cites Hartig2016, Ladwig2011, Miranker2012)) in the context of the **open web**.
+LTQP has been studied by multiple researchers ( for example those authors [](cite:cites Hartig2016, Ladwig2011, Miranker2012)) in the context of the **open web**.
 The current consensus is that the bottleneck for fast query execution is the number of HTTP requests [](cite:cites Hartig2016).
 
 
