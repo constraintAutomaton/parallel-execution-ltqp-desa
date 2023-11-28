@@ -18,5 +18,5 @@ the engine executes those operation in concurrence (asynchronously in one thread
 This choice of architecture could have the consequence of accumulating significantly more surplus execution time due to a non-optimal query plan compared to a parallel architecture particularly given a large number of data sources and of triple to process. 
 
 More concretely our research question is the following.
-Is the potential accumulation of idle time caused by the fetching of online documents (HTTP requests time) in one execution thread the cause
-of the statistical difference in query execution time between the ideal query plan (from an oracle) and the concrete implementation in the context of <q>Decentralized Environment[s] with structural assumptions</q>[](cite:cites Taelman2023)?
+Is the potential accumulation of idle time caused by the fetching of online documents (HTTP requests time) in one concurrent execution thread the cause
+of the statistical difference in query execution time between the ideal query plan (from an oracle) and the real implementation in the context of <q>Decentralized Environment[s] with structural assumptions</q>[](cite:cites Taelman2023)?
